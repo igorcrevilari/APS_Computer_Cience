@@ -1,0 +1,225 @@
+:root {
+	--default-green: #1db954;
+	--light-green: #1ed760;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #c1ffd0;
+}
+
+/* Navbar */
+#navbar {
+	display: flex;
+	background-color: rgba(238, 234, 234, 0.6);
+	color: rgb(0, 0, 0);
+	position: fixed;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#navbar a {
+	text-decoration: none;
+	color: rgb(0, 0, 0, 0.6);
+}
+
+#navbar .navbar-container {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
+#navbar .navbar-items {
+	color: black;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar .button {
+	background: rgb(255, 115, 0);
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	border-radius: 30px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+}
+
+#navbar .button:hover {
+	background: #1db954;
+	cursor: pointer;
+}
+
+#navbar .logo {
+	background-color: rgb(193, 218, 175);
+	border-radius: 50px;
+	align-items: center;
+	height: 70px;
+	width: 70px;
+}
+
+
+/* main */
+#main {
+	justify-content: center;
+	align-items: center;
+    position: unset;
+}
+
+#main .main-container-background .logo2{
+	background-color: rgb(193, 218, 175);
+	border-radius: 2px;
+	margin-left: 30%;
+	height: 200px;
+	width: 200px;
+}
+
+#main .main-container {
+	position: relative;
+	display: flex;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+
+#main .main-recicl {
+	background-color: rgba(194, 233, 186, 0.863);
+	justify-items: center;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 40px;
+	width: 35%;
+	height: 35%;
+}
+
+#main .main-recicl h2{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+	background-color: hsl(141, 56%, 49%);
+	border-radius: 40px;
+	text-align: center;
+	align-items: center;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+}
+
+#main .main-recicl p{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+	text-align: center;
+	align-items: center;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+}
+
+#main .main-container-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.78;
+}
+
+/* Footer */
+#footer {
+	position: relative;
+	width: auto;
+	height: 0%;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(0, 0, 0);
+	color: white;
+	padding: 3%;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 60%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+	margin: 0 60px;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(100, 100, 100);
+	font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+	display: flex;
+	margin-left: 38%;
+	height: 8px;
+	width: 50%;
+}
+
+.socials i {
+	margin: 0 20px;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+}
+
+.socials i:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+/* Footer Info */
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info {
+	justify-content: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste</title>
+    <link rel="stylesheet" href="pg_contribua.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <a href="index.html"><img src="pg_contribua/logo_.png" alt="" class="logo" /></a>
+            <ul class="navbar-items">
+                <a href="pg_sobre_nos.html"><li class="navbar-items">Sobre Nós</li></a>
+                <a href="pg_como_ajudar.html"><li class="navbar-items">Como Ajudar</li></a>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Main -->
+    <main id="main">
+        <div class="main-container">
+            <div class="main-logo">
+                <img src="pg_home/e-waste-img1-1.jpg" class="main-imagem">
+            </div>
+
+            <hr class="separador">
+            
+            <div class="main-form">
+                <div class="main-form-ewaste">
+                    <h2>Contribua</h2>
+                    <p class="p-white">A mudança começa por você!</p>
+                    <br>
+                </div>
+                <hr>
+                <br>
+                <form>
+                    <label for="nome">Nome Completo</label>
+                    <br>
+                    <input type="text" class="form" required placeholder="Maria Silva dos Santos...">
+                    <br>
+
+                    <label for="cpf">CPF</label>
+                    <br>
+                    <input type="text" class="form" required placeholder="000.000.000-00">
+                    <br>
+
+                    <label for="emal">Email</label>
+                    <br>
+                    <input type="email" class="form" required placeholder="m.silva@gmail.com">
+                    <br>
+
+                    <label for="periodo">Periodicidade</label>
+                    <br>
+                    <select name="periodo" class="periodo-post">
+                        <option value="uma-vez">Uma Vez</option>
+                        <option value="mensal">Mensal</option>
+                        <option value="trimestral">Trimestral</option>
+                        <option value="anual">Anual</option>
+                        <input type="text" class="valor" required placeholder="R$ 30,00">
+                    </select>
+                    <br><br>
+                    <input type="submit" value="ENVIAR" class="button">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="rights">
+                <div class="country">
+                    <p>Brasil</p>
+                    <img src="pg_contribua/brazil.png" class="brazil-flag" />
+                </div>
+                <p>&copy; 2022 E-Waste</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
