@@ -1,14 +1,14 @@
-# — Projeto para FACULDADE... 💻
-Esse projeto foi realizado em grupo, tendo como objetivo criar um site dentro do tema E-Waste (lixo eletrônico).
+# — Project for FACULTY... 💻
+This project was carried out in a group, with the objective of creating a website within the E-Waste theme (electronic waste).
 <br><br>
-Utilizamos apenas HTML e CSS para desenvolver o site, visto que o tema da aula era sobre o primeiro contato com web design. De acordo com as reuniões dos participantes e as expectativas, eu fui responsável por desenvolver:
+We used only HTML and CSS to develop the site, since the class theme was about the first contact with web design. According to the participants' meetings and expectations, I was responsible for developing:
 <br><br>
 <i>
-— Template do Site (footer, navbar, padrão de cores, imagens)<br>
-— Aba de Formulário<br>
-— Design primário da página inicial</i>
+— Site Template (footer, navbar, color pattern, images)<br>
+— Form Tab<br>
+— Primary homepage design</i>
 <br><br>
-O objetivo a princípio era apenas criar um site relacionado ao tema, mas durante o projeto concluímos que seria importante criar métodos, para que fosse possível monetizar a ideia e criar sistemas de interação com o público e parceiros.
+The objective at first was just to create a website related to the theme, but during the project we concluded that it would be important to create methods, so that it was possible to monetize the idea and create systems of interaction with the public and partners.
 <br><br>
 <hr>
 <div align="center">
